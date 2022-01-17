@@ -382,7 +382,7 @@ ul{
 .footer-links ul{
   margin-left: 100px;
 }
-.links-title {
+.links-title a {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -395,10 +395,17 @@ ul{
   transition: all 0.3 ease;
 }
 
-.links-title:hover{
+.links-title a:hover{
   opacity: 0.7;
 }
-.links {
+
+.links-title{
+  margin-bottom: 22px;
+}
+.links{
+  margin-bottom: 10px;
+}
+.links a{
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
@@ -409,7 +416,7 @@ ul{
   cursor: pointer;
 }
 
-.links:hover{
+.links a:hover{
   color: #fff;
 }
 .social-part svg {
